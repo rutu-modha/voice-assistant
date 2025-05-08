@@ -25,25 +25,33 @@ cd voice-assistant
 
 ### 2. Setup Backend
 
+```bash
 cd backend
 npm install
+```
 
 Make sure Python is installed and required Python packages are set up. If not, run this command:
 
+```bash
 pip install speechrecognition pyttsx3 nltk wikipedia
+```
 
 ### 3. Setup Frontend
 
+```bash
 cd ../frontend
 npm install
 npm start
+```
 
 ### 4. Run the Backend
 
 In a separate terminal:
 
+```bash
 cd backend
 node server.js
+```
 
 ### Notes
 
