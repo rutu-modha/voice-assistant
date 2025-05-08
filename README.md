@@ -1,7 +1,3 @@
-Here’s a clean, minimal README.md tailored to your project structure and current features:
-
----
-
 # Voice Assistant Web App
 
 A browser-based voice assistant that understands your speech and responds with intelligent actions using a Python-powered backend.
