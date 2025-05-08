@@ -1,0 +1,22 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "Express backend for the project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "fast": "nodemon server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "dotenv": "^10.0.0",
+        "cors": "^2.8.5",
+        "body-parser": "^1.19.0",
+        "child_process": "^1.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+}
