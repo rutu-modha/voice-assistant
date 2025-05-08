@@ -30,7 +30,7 @@ cd backend
 npm install
 ```
 
-Make sure Python is installed and required Python packages are set up. If not, run this command:
+Run following command to install the required Python packages:
 
 ```bash
 pip install speechrecognition pyttsx3 nltk wikipedia
