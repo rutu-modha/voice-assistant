@@ -53,7 +53,7 @@ cd backend
 node server.js
 ```
 
-### Notes
+### Note
 
 This version works best on Windows
 
