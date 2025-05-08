@@ -19,8 +19,8 @@ A browser-based voice assistant that understands your speech and responds with i
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/voice_assistant.git
-cd voice_assistant
+git clone https://github.com/rutu-modha/voice-assistant.git
+cd voice-assistant
 ```
 
 ### 2. Setup Backend
