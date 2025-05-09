@@ -2,8 +2,6 @@ import React, { useState } from "react"
 import "./App.css"
 export default function App() {
     // eslint-disable-next-line
-    const [res, setRes] = useState("")
-    // eslint-disable-next-line
     const [listen, setListen] = useState(false)
     const [value, setValue] = useState("")
     const startListening = () => {
@@ -17,7 +15,7 @@ export default function App() {
         recognition.onresult = async (event) => {
             const transcript = event.results[0][0].transcript;
             setListen(false)
-            alert(`You said: ${transcript}`);
+            alert("Your speech is recognized successfully. Processing may take some time. Please wait a while while your assistant is performing the task given by you. It will respond to you after the task is completed.");
             const res = await fetch("http://localhost:5000/", {
                 method: "POST",
                 headers: {
