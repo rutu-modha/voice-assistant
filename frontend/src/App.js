@@ -27,6 +27,7 @@ export default function App() {
             });
             const data = await res.json();
             setValue(prev => prev + "\nYou: " + transcript + "\nBot: " + data.message + "\n")
+            speak(data.message)
         };
         recognition.onerror = (event) => {
             console.error('Error occurred in recognition: ' + event.error);
@@ -37,6 +38,10 @@ export default function App() {
             setListen(false)
         };
     };
+    const speak = (text) => {
+        utterance = new SpeechSynthesisUtterance(text)
+        window.speechSynthesis.speak(text)
+    }
     return (
         <div>
             <h1>Voice Assistant</h1>
